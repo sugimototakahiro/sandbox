@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="30dp"
+    >
+
+    <TextView
+        android:text="おみくじ"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#0000ff"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button1"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        />
+</LinearLayout>
